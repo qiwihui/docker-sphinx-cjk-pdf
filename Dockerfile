@@ -1,4 +1,4 @@
-FROM buster
+FROM debian:buster
 LABEL MAINTAINER "qiwihui <qwh005007@gmail.com>"
 
 RUN apt-get update \
