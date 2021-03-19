@@ -1,11 +1,6 @@
 FROM buster
 LABEL MAINTAINER "qiwihui <qwh005007@gmail.com>"
 
-# current texlive version in debian:
-#    jessie: 2014.20141024-2+deb8u1
-#    stretch: 2016.20170123-5
-#    sid: 2016.20170123-5
-
 RUN apt-get update \
 	&& DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
 		python3-pip \
