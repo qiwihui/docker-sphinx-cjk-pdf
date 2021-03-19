@@ -13,7 +13,6 @@ RUN apt-get update \
 		texlive-latex-extra \
 		texlive-lang-cjk \
 		fonts-noto-cjk \
-		ttf-mscorefonts-installer \
 	&& rm -rf /var/lib/apt/lists/* \
 	&& rm -rf /root/.cache \
 	&& find /usr/local/ -type f -name '*.pyc' -delete
