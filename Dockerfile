@@ -13,6 +13,8 @@ RUN apt-get update \
 		texlive-latex-extra \
 		texlive-lang-cjk \
 		fonts-noto-cjk \
+                latexmk \ 
+                fonts-freefont-otf \
 	&& rm -rf /var/lib/apt/lists/* \
 	&& rm -rf /root/.cache \
 	&& find /usr/local/ -type f -name '*.pyc' -delete
